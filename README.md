@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/8opamrdcp34821qp?svg=true)](https://ci.appveyor.com/project/AleksandraIvanova90/playing-with-goblins)
+[![Build status](https://ci.appveyor.com/api/projects/status/akm2c4r5t1s9tndr?svg=true)](https://ci.appveyor.com/project/AleksandraIvanova90/playing-with-goblins)
 
 ### Игра с гоблинами
 
