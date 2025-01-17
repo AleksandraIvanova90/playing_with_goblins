@@ -9,11 +9,11 @@ export default class HoleGame {
 
   onHoleClick(e) {
     const hole = e.target;
-    const moles = this.element.previousElementSibling.querySelector('.status-moles');
+    const moles = this.element.previousElementSibling.querySelector('.status-goblins');
     const misses = this.element.previousElementSibling.querySelector('.status-misses');
     if (hole.className.includes('occupied') === true) {
       moles.textContent = +moles.textContent + 1;
-      hole.classList.remove('hole_has-mole');
+      hole.classList.remove('hole_has-goblin');
     } else {
       misses.textContent = +misses.textContent + 1;
       if (misses.textContent === '5') {

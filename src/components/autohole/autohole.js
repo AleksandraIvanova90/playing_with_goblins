@@ -9,7 +9,7 @@ export default class AutoHole {
 
   fistHole() {
     const index = getRandomInt(0, 15);
-    this.element.children[index].classList.add('hole_has-mole');
+    this.element.children[index].classList.add('hole_has-goblin');
     this.element.children[index].classList.add('occupied');
   }
 
@@ -21,9 +21,9 @@ export default class AutoHole {
       while (randomHole === holeIndex) {
         randomHole = getRandomInt(0, 15);
       }
-      hole.classList.remove('hole_has-mole');
+      hole.classList.remove('hole_has-goblin');
       hole.classList.remove('occupied');
-      this.element.children[randomHole].classList.add('hole_has-mole');
+      this.element.children[randomHole].classList.add('hole_has-goblin');
       this.element.children[randomHole].classList.add('occupied');
     }, 1200);
   }
