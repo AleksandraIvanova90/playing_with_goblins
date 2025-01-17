@@ -1,0 +1,36 @@
+.card {
+    width: 800px;
+    margin-bottom: 0;
+    pointer-events: auto;
+  }
+ 
+  .hole-game {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    cursor: 
+      url(../img/hammer.png) 2 2, default;
+  }
+  
+  .status {
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+  
+  .hole {
+    width: 150px;
+    height: 150px;
+    margin: 0 15px 30px;
+    background: green;
+    border-radius: 50%;
+  }
+  
+  .hole_has-mole {
+    background-image: url(../img/goblin.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: brown;
+  }
+  
